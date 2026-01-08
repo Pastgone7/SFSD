@@ -1,0 +1,29 @@
+python evaluate_experiment.py \
+    --object_name breakfast_box \
+    --dataset_base_dir '../../autodl-tmp/mvtec-loco/' \
+    --anomaly_maps_dir '../../autodl-tmp/mvtec-loco_anomaly_maps/' \
+     --output_dir 'metrics/'
+     
+python evaluate_experiment.py \
+    --object_name juice_bottle \
+    --dataset_base_dir '../../autodl-tmp/mvtec-loco/' \
+    --anomaly_maps_dir '../../autodl-tmp/mvtec-loco_anomaly_maps/' \
+     --output_dir 'metrics/'
+     
+python evaluate_experiment.py \
+    --object_name pushpins \
+    --dataset_base_dir '../../autodl-tmp/mvtec-loco/' \
+    --anomaly_maps_dir '../../autodl-tmp/mvtec-loco_anomaly_maps/' \
+     --output_dir 'metrics/'
+     
+python evaluate_experiment.py \
+    --object_name screw_bag \
+    --dataset_base_dir '../../autodl-tmp/mvtec-loco/' \
+    --anomaly_maps_dir '../../autodl-tmp/mvtec-loco_anomaly_maps/' \
+     --output_dir 'metrics/'
+     
+python evaluate_experiment.py \
+    --object_name splicing_connectors \
+    --dataset_base_dir '../../autodl-tmp/mvtec-loco/' \
+    --anomaly_maps_dir '../../autodl-tmp/mvtec-loco_anomaly_maps/' \
+     --output_dir 'metrics/'
